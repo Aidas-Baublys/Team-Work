@@ -15,9 +15,9 @@ $rand_numb_name = rand(0, 5);
     <nav class="nav">
         <ul class="nav-ul">
             <li class="nav-li"><a class="nav-li-link" href="index.php">Home</a></li>
-            <li class="nav-li"><a class="nav-li-link" href="">Tour-De-PzDc</a></li>
-            <li class="nav-li"><a class="nav-li-link" href="">History</a></li>
-            <li class="nav-li"><a class="nav-li-link" href="">Bloopers</a></li>
+            <li class="nav-li"><a class="nav-li-link" href="tour-de-pzdc">Tour-De-PzDc</a></li>
+            <li class="nav-li"><a class="nav-li-link" href="history">History</a></li>
+            <li class="nav-li"><a class="nav-li-link" href="bloopers">Bloopers</a></li>
         </ul>
     </nav>
     <h1 class="history-text">History</h1>
