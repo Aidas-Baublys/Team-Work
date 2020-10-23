@@ -61,7 +61,7 @@ for ($a = 1; $a <= 3; $a++) {
         <li class="nav-li"><a class="nav-li-link" href="index.php">Home</a></li>
         <li class="nav-li"><a class="nav-li-link" href="">Tour-De-PzDc</a></li>
         <li class="nav-li"><a class="nav-li-link" href="">History</a></li>
-        <li class="nav-li"><a class="nav-li-link" href="">Bloopers</a></li>
+        <li class="nav-li"><a class="nav-li-link" href="Bloopers.php">Bloopers</a></li>
     </ul>
 </nav>
 <section class="index-container">
@@ -69,8 +69,8 @@ for ($a = 1; $a <= 3; $a++) {
         <div class="index-cards">
             <img class="index-player-photo" src="<?php print $user['img']; ?>">
             <h2 class="index-player-name"><?php print $user['name'] . ' ' . $user['surname']; ?></h2>
-            <h3 class="index-player-score"><?php print 'W ' . $user['games'] . ' / ' . 'L ' . $user['loses']; ?></h3>
-            <h3 class="index-player-score"><?php print 'Win Ratio: ' . $user['proc_w_l'] . '%'; ?></h3>
+            <h3 class="index-player-score">W <?php print $user['games'];?> / L <?php print $user['loses']; ?></h3>
+            <h3 class="index-player-score"> Win Ratio: <?php print $user['proc_w_l'];?> %</h3>
         </div>
     <?php endforeach; ?>
 </section>
