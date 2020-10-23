@@ -32,31 +32,6 @@ $gifs = [
     <title>Bloopers</title>
 </head>
 <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
-<style>
-    * {
-        font-family: 'Architects Daughter', cursive;
-    }
-    .bloopers-body {
-        margin: 0 auto;
-        text-align: center;
-        background-image: url("https://i.pinimg.com/originals/95/b3/c7/95b3c7550512c67df4e2a4bc1a8cb5a0.png");
-        background-size: 100%;
-    }
-    .bloopers-container {
-        margin: 0 auto;
-        width: 60%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 20px;
-        grid-row-gap: 20px;
-    }
-    .bloopers-img {
-        height: 200px;
-    }
-    .blooper-text {
-        font-size: 50px;
-    }
-</style>
 <body class="bloopers-body">
 <nav class="nav">
     <ul class="nav-ul">
