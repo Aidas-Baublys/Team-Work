@@ -47,7 +47,7 @@
 .nav-li-link {
     text-decoration: none;
     color: black;
-    font: bold 45px 'Architects Daughter', cursive;
+    font: bold 50px 'Architects Daughter', cursive;
 }
 
 .index-container {
@@ -74,7 +74,7 @@
 }
 
 .index-player-name {
-    font: bold 25px 'Architects Daughter', cursive;
+    font: bold 35px 'Architects Daughter', cursive;
 }
 
 .index-player-score {
