@@ -81,3 +81,18 @@
     font: bold 20px "Comic Sans MS", cursive;
     padding: 50px 0;
 }
+
+.body-history {
+        background-image: url("https://download.hipwallpaper.com/desktop/1920/1080/43/10/5a6Sue.jpg");
+        background-size: contain;
+        display: flex;
+        justify-content: start;
+        text-align: left;
+    }
+    .history-text {
+        color: white;
+        padding-left: 50px;
+    }
+    .history-li {
+        text-decoration: none;
+    }
