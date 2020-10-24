@@ -11,7 +11,7 @@ $surnames = [
     'Grauzikas',
     'Kotas',
     'Hekolte',
-    'Skrajunas',
+    'Skrajutas',
     'Medis',
     'Peleda'
 ];
@@ -26,7 +26,7 @@ $photos = [
 $participated = [8, 7, 9, 11, 15, 13];
 $wins = [1, 3, 5, 4, 2, 6];
 
-for ($a = 1; $a <= 4; $a++) {
+for ($a = 1; $a <= 3; $a++) {
     $names_random = rand(0, count($names) - 1);
     $surnames_random = rand(0, count($surnames) - 1);
     $photos_random = rand(0, count($photos) - 1);
@@ -68,12 +68,11 @@ for ($a = 1; $a <= 4; $a++) {
     <?php foreach ($players as $user): ?>
         <div class="index-cards">
             <img class="index-player-photo" src="<?php print $user['img']; ?>">
-            <h2 class="index-player-name"><?php print $user['name']?> <?php print $user['surname']; ?></h2>
-            <h3 class="index-player-score">W <?php print $user['games']; ?> / L <?php print $user['loses']; ?></h3>
-            <h3 class="index-player-score"> Win Ratio: <?php print $user['proc_w_l']; ?> %</h3>
+            <h2 class="index-player-name"><?php print $user['name'] . ' ' . $user['surname']; ?></h2>
+            <h3 class="index-player-score">W <?php print $user['games'];?> / L <?php print $user['loses']; ?></h3>
+            <h3 class="index-player-score"> Win Ratio: <?php print $user['proc_w_l'];?> %</h3>
         </div>
     <?php endforeach; ?>
 </section>
-<h2 class="index-bg-title"> - Run Bitch RUN!!!</h2>
 </body>
 </html>
