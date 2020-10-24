@@ -6,7 +6,7 @@
 
 .index-body {
     width: auto;
-    background-image: url("https://lparchive.org/South-Park-The-Stick-of-Truth/Update%2024/61-24049.jpg");
+    background-image: url("https://media1.giphy.com/media/3oz8xQS6grCbtPqK7m/giphy.gif");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -17,6 +17,7 @@
 .nav {
     height: 100px;
     width: 100%;
+    margin: 25px 0;
 }
 
 .nav-ul {
@@ -34,13 +35,13 @@
     padding: 5px 5px;
     width: 20%;
     transition: 0.3s;
-    background-color: rgba(225, 0, 0, 0.7);
+    background-color: rgba(0, 185, 0, 0.5);
 }
 
 .nav-li:hover {
     transform: translateY(6px);
     transition: 0.3s;
-    background-color: rgba(225, 0, 0, 1);
+    background-color: rgba(225, 0, 0, 0.5);
     cursor: pointer;
 }
 
@@ -54,9 +55,9 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    padding: 100px 50px;
+    grid-template-columns: repeat(4, 350px);
+    padding: 100px 50px 50px;
+    justify-content: space-around;
 }
 
 .index-cards {
@@ -69,8 +70,8 @@
 
 .index-player-photo {
     width: 80%;
-    height: 400px;
-    padding: 40px 0;
+    height: 300px;
+    padding: 30px 0;
 }
 
 .index-player-name {
@@ -79,5 +80,9 @@
 
 .index-player-score {
     font: bold 20px "Comic Sans MS", cursive;
-    padding: 50px 0;
+    padding: 30px 0;
+}
+.index-bg-title{
+    font: bold 70px "Comic Sans MS", cursive;
+    color: white;
 }
