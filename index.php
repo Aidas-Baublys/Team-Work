@@ -26,7 +26,7 @@ $photos = [
 $participated = [8, 7, 9, 11, 15, 13];
 $wins = [1, 3, 5, 4, 2, 6];
 
-for ($a = 1; $a <= 3; $a++) {
+for ($a = 1; $a <= 4; $a++) {
     $names_random = rand(0, count($names) - 1);
     $surnames_random = rand(0, count($surnames) - 1);
     $photos_random = rand(0, count($photos) - 1);
@@ -74,5 +74,6 @@ for ($a = 1; $a <= 3; $a++) {
         </div>
     <?php endforeach; ?>
 </section>
+<h2 class="index-bg-title"> - Run Bitch RUN !!!</h2>
 </body>
 </html>
